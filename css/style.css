@@ -1,0 +1,348 @@
+@font-face
+{
+font-family: Karate;
+src: url(/fonts/Karate.ttf);
+}
+@font-face
+{
+font-family: go3v2;
+src: url(/fonts/go3v2.ttf);
+}
+@font-face
+{
+font-family: a_ripping_yarn_too;
+src: url(/fonts/a_ripping_yarn_too.ttf);
+}
+
+
+
+
+p {
+    color: black;
+     line-height: 18px;
+}
+
+Body
+{
+	background: url(/Images/BG/ABG7.jpg) repeat-y fixed;
+    background-size: cover;
+/*  background-image:url('../Images/BG/BG.jpg');
+	background-repeat: repeat-xy;
+	background-color: #C57EDC; */
+	vertical-align: top;
+	margin-right: 20px;
+	margin-left: 20px;
+	min-width:649px;
+	margin: 0px auto;
+	text-align: center;
+    color: black;
+    font-family: "Helvetica";
+    font-size: 14px;
+
+
+	}
+
+	#content {
+	text-align: left;
+	width: 900px;
+	background: #efefef;
+	background: linear-gradient(315deg, #CE57F5 0%,#794F93 100%);
+	background: -moz-linear-gradient(315deg, #CE57F5 0%,#794F93 100%);
+	background: -webkit-linear-gradient(315deg, #CE57F5 0%,#794F93 100%);
+  	-moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+  	-webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+ 	box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	padding: 0 20px;
+	border-radius: 10px;
+	list-style: none;
+	position: relative;
+	display: inline-table;
+}
+
+#copy {
+   font-size:small;
+   }
+
+.date
+   {
+   font-family:"go3v2";
+   Color:Black;
+   font-size:125%;
+   font-weight:bold;
+    text-align: center;
+   }
+#title
+   {
+   font-family:"go3v2";
+   Color:#001399;
+   font-size:275%;
+   font-weight:bold;
+       text-align: center;
+   }
+
+    #n:link {
+	text-decoration:none;
+	color:Black;
+	}
+	#n:visited {
+	text-decoration:none;
+	color:Black;
+	}
+	#n:hover {
+	text-decoration:underline;
+	color:Black;
+	}
+	#n:active {
+	text-decoration:none;
+	color:Black;
+	}
+
+	#stitle
+   {
+	font-family: "Karate";
+	Color: #3366ff;
+	font-size: 175%;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	text-shadow: 3px 2px 2px #000;
+       text-align: center;
+   }
+   #sstitle
+   {
+	font-family: "Karate";
+	Color: #3366ff;
+	font-size: 175%;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	text-shadow: 3px 2px 2px #000;
+       text-align: center;
+   }
+   #gtitle
+   {
+	font-family: "Karate";
+	Color:#2205ba;
+	font-size: 140%;
+	font-weight: bold;
+    margin: 10px; 0px;
+       line-height: 12px;
+       text-align: center;
+
+
+   }
+    #sidebar
+   {
+	   line-height:30px;
+	   width:130px;
+	   float:left;
+	   height:100%;
+	   padding-right:10px;
+	   padding-top:0px;
+
+   }
+    #sidebar_border
+   {
+	   	   border:#0042F5;
+	   border-style: inset;
+	   padding-left:10px;
+
+   }
+
+   #fiction_sidebar
+   {
+        line-height: 15px;
+	   width:130px;
+	   float:left;
+	   height:100%;
+	   padding-right:10px;
+	   padding-top:0px;
+
+   }
+    #sidebar_border_fiction
+   {
+	   	   border:#0042F5;
+	   border-style: inset;
+	   text-align: center;
+       padding: 1px;
+
+   }
+
+
+   #s:link {
+	text-decoration:none;
+	Color:#2205ba;
+	font-size: 100%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#s:visited {
+	text-decoration:none;
+	Color:#2205ba;
+	font-size: 100%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+    #s:hover {
+	text-decoration:underline;
+	color:#2548f5;
+	font-size: 100%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#s:active {
+	text-decoration:none;
+	color:#2205ba;
+	font-size: 100%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+
+
+
+#gpic {
+    float: right;
+    padding: 10px;
+    width: 160px;
+    padding-top: 15px
+
+}
+
+.center {
+    text-align: center;
+}
+
+#boxart {
+    border: 0;
+    float: right;
+    margin: 15px; 5px;
+
+
+}
+
+#note {
+    text-align: center;
+   font-size: 20px;
+    color: gold;
+}
+
+
+
+
+
+.nope {
+    cursor:default;
+}
+
+
+    img.key {
+	height:100px;
+	border:solid black 1px;
+	}
+
+#key_images {
+	text-align: justify;
+	}
+
+#key_images > div {
+	width: 100px; /* Declare your value. Can be in relative units. */
+	display: inline-block;
+	vertical-align: top;
+
+	/* IE fix. */
+	*display: inline;
+	zoom: 1;
+	}
+
+#link_title {
+    font-family: "Karate";
+	Color: #3366ff;
+	font-size: 175%;
+	font-weight: bold;
+	margin-right: auto;
+	margin-left: auto;
+	text-shadow: 3px 2px 2px #000;
+       text-align: left;
+}
+
+.Smallspace {
+     float: right;
+}
+}
+
+hr {
+    color:#794F93;
+}
+
+#game_titles {
+    line-height: 160%;
+    text-align: center;
+    font-size: 90%;
+}
+
+#tobig {
+    font-size: 99%;
+}
+
+#abittobig {
+    font-size: 92%;
+}
+#none {
+    text-decoration: none;
+    color: black;
+    cursor:text;
+}
+
+.right {
+ text-align: right;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.chapter:link {
+	text-decoration:none;
+	color:#001399;
+	font-weight: bold;
+	}
+	.chapter:visited {
+	text-decoration:none;
+	color:#001399;
+	font-weight: bold;
+	}
+	.chapter:hover {
+	text-decoration:underline;
+	color:#2950ee;
+	font-weight: bold;
+	}
+	.chapter:active {
+	text-decoration:none;
+	color:#6050ee;
+	font-weight: bold;
+	}
+
+
+.border_none {
+    border: 0;
+}
+
+.ToTheRight {
+    float: right;
+}
+
+.ToTheLeft {
+    float: left;
+}
+
+.wrap {
+    float: right;
+    padding: 10px;
+}
+
+.padding_top_M {
+        padding: 15px;
+}
+.hidden {
+	display: none;
+}

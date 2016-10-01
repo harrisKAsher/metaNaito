@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: #909eab url(bg.png);
+	
+}
+nav ul {
+	text-align: top;
+	z-index: 1;
+
+	
+}
+
+nav ul ul {
+	display: none;
+}
+
+	nav ul li:hover > ul {
+		display: block;
+	}
+
+/* Box and Font for stuff in the Box */
+nav ul {
+	font-family: "Karate" ; font-size: 18px; line-height: 24px;
+	width: 900px;
+	background: #efefef; 
+	background: linear-gradient(315deg, #CE57F5 0%, 100%);
+	background: -moz-linear-gradient(315deg, #CE57F5 0%,#794F93 100%);
+	background: -webkit-linear-gradient(315deg, #CE57F5 0%,#794F93 100%); 
+  -moz-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+  -webkit-box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+  box-shadow: 5px 5px 5px rgba(68,68,68,0.6);
+	padding: 0 20px;
+	border-radius: 10px;  
+	list-style: none;
+	position: relative;
+	display: inline-table;
+
+}
+	nav ul:after {
+		content: ""; clear: both; display: block;
+	}
+
+	nav ul li {
+		float: left;
+	}
+
+			nav ul li:hover a {
+				color: #2548f5;
+			}
+			/* Text Color!*/	
+		nav ul li a {
+			display: block; padding: 15px 35px;
+			color: #2205ba; text-decoration: none;
+			font-family: "Karate";
+			font-size: 175%;
+		}
+		
+	
+			
+		/* Color of box when not hovering (Inside)*/
+	nav ul ul {
+		background: linear-gradient( #CE57F5 25%,#794F93 100%); 
+	    background: -moz-linear-gradient( #CE57F5 25%,#794F93 100%); 
+	    background: -webkit-radial-gradient( #CE57F5 25%,#794F93 100%); 
+		border-radius: 4px; padding: 0;
+		position: absolute; top: 100.3%;
+		width:875px;
+	}
+	nav ul ul.a {
+		background: linear-gradient( #CE57F5 25%,#794F93 100%); 
+	    background: -moz-linear-gradient( #CE57F5 25%,#794F93 100%); 
+	    background: -webkit-radial-gradient( #CE57F5 25%,#794F93 100%); 
+		border-radius: 4px; padding: 0;
+		position: absolute; top: 100.3%;
+		width:225px;
+		right: 54%;
+	}
+	nav ul ul.b {
+		background: linear-gradient( #CE57F5 25%,#794F93 100%); 
+	    background: -moz-linear-gradient( #CE57F5 25%,#794F93 100%); 
+	    background: -webkit-radial-gradient( #CE57F5 25%,#794F93 100%); 
+		border-radius: 4px; padding: 0;
+		position: absolute; top: 100.3%;
+		width:150px;
+		right: 47.5%;
+
+		
+	}
+		nav ul ul li {
+			float:none;
+			width:875px;
+			font-family: Helvetica, sans-serif; font-size: 9px; line-height: 16px;
+			-webkit-column-count: 5; /* Chrome, Safari, Opera */
+    -moz-column-count: 5; /* Firefox */
+    column-count: 5;
+	}
+				nav ul ul li.a {
+			float:none;
+			width:225px;
+			font-family: Helvetica, sans-serif; font-size: 17px; line-height: 30px;
+			-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	text-align:left;
+
+				
+		}
+	nav ul ul li.b {
+			float:none;
+			width:150px;
+			font-family: Helvetica, sans-serif; font-size: 17px; line-height: 30px;
+			-webkit-column-count: 1; /* Chrome, Safari, Opera */
+    -moz-column-count: 1; /* Firefox */
+    column-count: 1;
+	text-align:left;
+
+				
+		}
+
+				
+		
+			nav ul ul li a {
+				padding: 5px 0px;
+				color: #fff;
+			}	
+			/* Color of box when hovering (Inside)*/
+				nav ul ul li a:hover {
+					background: #794F93;
+				}
+		
+	nav ul ul ul {
+		display: display;
+		position: absolute; left: 100%; top:0; }
+
+
+}
+
+
+
+
+
+
+
+
+

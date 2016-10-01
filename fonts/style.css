@@ -1,0 +1,261 @@
+
+@font-face
+{
+font-family: Karate;
+src: url(fonts/Karate.ttf);
+}
+
+
+Body
+{
+	background-color:#521C75;
+}
+
+#Top {
+	margin-right: auto;
+	margin-left: auto;
+	width: 100%;
+	background-image: url(Images/header/repeat_header.png);
+	background-repeat: repeat;
+	height: 196px;
+}
+#menu_left {
+	background-color: #551C75;
+	width: 1%;
+	vertical-align: top;
+	padding-left: 4px;
+}
+
+
+#left_space {
+	width: 175px;
+}
+
+#menu_right {
+	background-color: #551C75;
+	color:#7575ff;
+	width: 1%;
+	vertical-align: top;
+	padding-left: 4px;
+}
+#body_spaceing {
+	margin-right: 20px;
+	margin-left: 20px;
+}
+
+#right_space {
+	width: 175px;
+}
+
+#body {
+	background-color: #794F93;
+	vertical-align: top;
+	margin-right: 20px;
+	margin-left: 20px;
+	min-width:649px;
+}
+#footer {
+	background-color: #663399;
+	width: 100%;
+	height: 100px;
+}
+ h1
+   {
+   font-family:"Cooper Black";
+   Color:#3333cc;
+   text-shadow: 5px 2px 2px #000;
+   }
+    h4
+   {
+   Color:black;
+   font-size:130%;	
+	margin: 0;
+	padding-top: 16px;
+	padding-bottom: 0px;
+   }
+   h3
+   {
+   line-height:140%;
+   }
+#boss
+{
+   Color:#0000cc;
+   font-size:250%;
+   font-weight:bold;
+}
+#side_title
+{
+   font-size:135%;
+   font-weight:bold;
+}
+
+
+
+
+ a:link
+   {
+	color:Navy;
+   }
+   #n:link {
+	text-decoration:none;
+	color:Black;
+	}
+	#n:visited {
+	text-decoration:none;
+	color:Black;
+	}
+	#n:hover {
+	text-decoration:underline;
+	color:Black;
+	}
+	#n:active {
+	text-decoration:none;
+	color:Black;
+	}
+	#m:link {
+	text-decoration:none;
+	color:#6050ee;
+	font-size: 135%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#m:visited {
+	text-decoration:none;
+	color:#6050ee;
+	font-size: 135%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#m:hover {
+	text-decoration:underline;
+	color:#2950ee;
+	font-size: 135%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#m:active {
+	text-decoration:none;
+	color:#6050ee;
+	font-size: 135%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#s:link {
+	text-decoration:none;
+	color:#6050ee;
+	font-size: 125%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#s:visited {
+	text-decoration:none;
+	color:#6050ee;
+	font-size: 125%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#s:hover {
+	text-decoration:underline;
+	color:#2950ee;
+	font-size: 125%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#s:active {
+	text-decoration:none;
+	color:#6050ee;
+	font-size: 125%;
+	font-weight: bold;
+	line-height: 120%;
+	}
+	#l:link {
+	text-decoration:none;
+	color:#000099;
+	}
+	#l:visited {
+	text-decoration:none;
+	color:#000099;
+	}
+	#l:hover {
+	text-decoration:underline;
+	color:#000099;
+	}
+	#l:active {
+	text-decoration:none;
+	color:#000099;
+	}
+#stitle
+   {
+	font-family: "Karate";
+	Color: #3366ff;
+	font-size: 175%;
+	font-weight: bold;
+	width: 175px;
+	margin-right: auto;
+	margin-left: auto;
+	text-shadow: 3px 2px 2px #000;
+   }
+#title
+   {
+   font-family:"Comic Sans MS";
+   Color:#001399;
+   font-size:275%;
+   font-weight:bold;
+   }
+#revenge
+    {
+   font-family:"Karate";
+   Color:#001399;
+   font-size:275%;
+   font-weight:bold;
+   }   
+  #date
+   {
+   font-family:"Comic Sans MS";
+   Color:Black;
+   font-size:125%;
+   font-weight:bold;
+   }
+#small
+   {
+   font-size:small;
+   }
+#arch
+   {
+   font-family:"Comic Sans MS";
+   Color:Black;
+   font-size:105%;
+   font-weight:bold;
+   }
+   #TBBG
+{
+font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+width:100%;
+border-collapse:collapse;
+}
+#TBBG td, #TBBG th 
+{
+font-size:1em;
+border:1px solid #000099;
+padding:3px 7px 2px 7px;
+}
+#TBBG th 
+{
+font-size:1.5em;
+text-align:center;
+padding-top:5px;
+padding-bottom:4px;
+background-color:transparent;
+color:#000099;
+}
+#TBBG tr.alt td 
+{
+color:#000000;
+background-color:transparent;
+}
+iframe{
+    background-color: transparent;
+    border: 0px none transparent;
+    padding: 0px;
+    overflow: hidden;
+}

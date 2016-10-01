@@ -1,0 +1,23 @@
+
+.Smspace {
+     padding: 1px;
+    boarder: px;
+}
+
+.img_right {
+    float: right;
+}
+.social {
+    padding: 4px;
+    padding-top: 8px;
+}
+
+.wide_img {
+    width: 250px;
+    height: auto;
+}
+
+.tall_img {
+    width: 150px;
+    height: auto;
+}

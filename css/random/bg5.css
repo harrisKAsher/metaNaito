@@ -1,0 +1,13 @@
+#Main_content
+   {
+    width:740px;
+    float:left;
+    padding:10px;
+    background-image: url('/Media/Images/BG/trans/bg5.png');
+    background-color: #e28dfd;
+    border-radius: 10px;
+	-moz-box-shadow: 3px 3px 3px rgba(68,68,68,0.6);
+  	-webkit-box-shadow: 3px 3px 3px rgba(68,68,68,0.6);
+ 	box-shadow: 3px 3px 3px rgba(68,68,68,0.6);
+    margin-bottom: 20px;
+   }
